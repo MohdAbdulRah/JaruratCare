@@ -2,6 +2,10 @@
 
 A simple and responsive React web application for managing patient records. Built using **React**, **Vite**, and **Tailwind CSS**.
 
+## Live Link
+
+https://jaruratcare-wmmz.onrender.com/
+
 ## Features
 
 * Landing page with header and navigation.

@@ -127,4 +127,3 @@ Mohd Abdul Rahman
 
 ---
 
-*Make sure to create a `screenshots` folder in your repo and add the above images for the screenshots references to work properly.*

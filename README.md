@@ -79,19 +79,41 @@ vercel
 
 ### Landing Page
 
-![Landing Page](screenshots/landing.png)
+![home](https://github.com/user-attachments/assets/1bc247be-fba3-4e5e-808c-868702395d34)
+
 
 ### Patients Dashboard
 
-![Patients Dashboard](screenshots/patients.png)
+![patients](https://github.com/user-attachments/assets/27471840-9c14-4509-82c7-9852e63afaaa)
+
 
 ### Patient Details Modal
 
-![Patient Details](screenshots/details-modal.png)
+![viewpage](https://github.com/user-attachments/assets/c454cc0f-a106-444e-9905-c6ea8cb35c96)
+
+
+### About Page
+
+![about](https://github.com/user-attachments/assets/87d96aa4-2b7e-4162-ba0b-0931d1ac7a02)
+
+
+### Search Functionality
+
+![search ](https://github.com/user-attachments/assets/bbb55a21-39b7-48fb-b570-44bdf420f133)
+
+
 
 ### Add New Patient Modal
 
-![Add Patient](screenshots/add-patient-modal.png)
+![add](https://github.com/user-attachments/assets/5cd82b57-10d5-4df0-8227-34077b3c4d66)
+
+
+### After Adding
+
+![newrecord](https://github.com/user-attachments/assets/1b3721ab-ada7-43b9-bcb2-1dd5a4d27346)
+
+
+
 
 ## Notes
 

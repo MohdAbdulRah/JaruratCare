@@ -1,16 +1,108 @@
-# React + Vite
+# Patient Records Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React web application for managing patient records. Built using **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Landing page with header and navigation.
+* Patients page displaying a list of patients in a responsive card/grid layout.
+* Search bar to filter patients by name.
+* View patient details in a modal.
+* Add new patient via a modal form (local state only, no backend).
+* Loading and error states while fetching API.
+* Fully responsive and hi-fi modern design using Tailwind CSS.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React 18
+* Vite
+* Tailwind CSS
+* JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+
+```bash
+git clone <your-repo-link>
+cd patient-records-dashboard
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Start the development server:**
+
+```bash
+npm run dev
+```
+
+4. **Open in browser:**
+
+Vite will provide a local URL, usually `http://localhost:5173/`. Open it in your browser.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+This will create a `dist` folder ready to deploy.
+
+## Deployment
+
+You can deploy the project to **Vercel** or **Netlify**:
+
+### Vercel
+
+1. Install Vercel CLI (if not already):
+
+```bash
+npm i -g vercel
+```
+
+2. Deploy:
+
+```bash
+vercel
+```
+
+### Netlify
+
+1. Drag and drop the `dist` folder in Netlify deploy area or connect GitHub repo.
+2. Set build command as `npm run build` and publish directory as `dist`.
+
+## Screenshots
+
+### Landing Page
+
+![Landing Page](screenshots/landing.png)
+
+### Patients Dashboard
+
+![Patients Dashboard](screenshots/patients.png)
+
+### Patient Details Modal
+
+![Patient Details](screenshots/details-modal.png)
+
+### Add New Patient Modal
+
+![Add Patient](screenshots/add-patient-modal.png)
+
+## Notes
+
+* All patient data is fetched from a mock API (`https://jsonplaceholder.typicode.com/users`).
+* Adding new patients only updates local state, not persisted in a backend.
+* Fully responsive for desktop and mobile.
+
+## Author
+
+Mohd Abdul Rahman
+
+---
+
+*Make sure to create a `screenshots` folder in your repo and add the above images for the screenshots references to work properly.*

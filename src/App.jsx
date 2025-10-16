@@ -22,7 +22,7 @@ return (
 <main className="flex-grow p-6">
 <Routes>
       {/* Default route redirects to /patients */}
-      <Route path="/" element={<Navigate to="/patients" replace />} />
+      <Route path="/" element={<Navigate to="/home" replace />} />
 
       <Route path="/patients" element={<Patients />} />
       <Route path="/home" element={<Home />} />
